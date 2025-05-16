@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/medina/posts")
-@CrossOrigin(origins = {"http://localhost:5173", "https://finals-frontend-app-project.onrender.com"}) // Allow requests from the frontend
+@CrossOrigin(origins = {"http://localhost:5173", "https://final-ui-c73o.onrender.com"}) // Allow requests from the frontend
 public class PostController {
 
     @Autowired
